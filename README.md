@@ -1,4 +1,4 @@
-\# 🚨 H2S False Alarm Detection System
+\# H2S False Alarm Detection System
 
 
 
@@ -12,7 +12,6 @@
 
 !\[Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)
 
-!\[License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 
@@ -58,19 +57,13 @@
 
 \- \[Future Enhancements](#-future-enhancements)
 
-\- \[Contributing](#-contributing)
-
-\- \[License](#-license)
-
-\- \[Contact](#-contact)
-
 
 
 ---
 
 
 
-\## ❗ Problem Statement
+\## Problem Statement
 
 
 
@@ -96,7 +89,7 @@ In chemical manufacturing environments, H2S (Hydrogen Sulfide) gas sensors trigg
 
 
 
-\## 💡 Solution Overview
+\##  Solution Overview
 
 
 
@@ -118,11 +111,11 @@ The system is deployed as a \*\*REST API\*\* using Flask, enabling integration w
 
 
 
-\## ✨ Key Features
+\##  Key Features
 
 
 
-\### 🔍 Intelligent Alarm Classification
+\###  Intelligent Alarm Classification
 
 \- Real-time prediction of alarm authenticity
 
@@ -132,7 +125,7 @@ The system is deployed as a \*\*REST API\*\* using Flask, enabling integration w
 
 
 
-\### 📊 Data-Driven Decision Making
+\###  Data-Driven Decision Making
 
 \- Analyzes 6 critical sensor parameters:
 
@@ -150,7 +143,7 @@ The system is deployed as a \*\*REST API\*\* using Flask, enabling integration w
 
 
 
-\### 🚀 Production-Ready API
+\###  Production-Ready API
 
 \- RESTful Flask API for easy integration
 
@@ -162,7 +155,7 @@ The system is deployed as a \*\*REST API\*\* using Flask, enabling integration w
 
 
 
-\### 📈 High Model Performance
+\###  High Model Performance
 
 \- \*\*100% Accuracy\*\* on test dataset
 
@@ -176,7 +169,7 @@ The system is deployed as a \*\*REST API\*\* using Flask, enabling integration w
 
 
 
-\## 🛠️ Technologies Used
+\##  Technologies Used
 
 
 
@@ -204,7 +197,7 @@ The system is deployed as a \*\*REST API\*\* using Flask, enabling integration w
 
 
 
-\## 📊 Model Performance
+\##  Model Performance
 
 
 
@@ -248,7 +241,7 @@ The model demonstrates perfect classification on the test dataset:
 
 
 
-!\[Confusion Matrix](screenshots/confusion\_matrix.png)
+!\[Confusion Matrix](Screenshot/Confusion_matrix.png)
 
 
 
@@ -264,7 +257,7 @@ The model demonstrates perfect classification on the test dataset:
 
 
 
-\## 🔧 Installation
+\##  Installation
 
 
 
@@ -348,7 +341,7 @@ Expected output:
 
 
 
-\## 🚀 Usage
+\##  Usage
 
 
 
@@ -398,7 +391,7 @@ The API will be available at: `http://localhost:5000`
 
 
 
-\## 📡 API Documentation
+\##  API Documentation
 
 
 
@@ -416,7 +409,7 @@ http://localhost:5000
 
 
 
-\#### 1️⃣ Health Check
+\#### Health Check
 
 
 
@@ -458,7 +451,7 @@ curl http://localhost:5000/
 
 
 
-\#### 2️⃣ Predict Alarm Status
+\####  Predict Alarm Status
 
 
 
@@ -672,7 +665,7 @@ print(response.json())
 
 
 
-\## 📁 Project Structure
+\## Project Structure
 
 ```
 
@@ -702,21 +695,13 @@ h2s-false-alarm-detection/
 
 │
 
-├── screenshots/
+├── Screenshot/
 
-│   ├── confusion\_matrix.png                # Model evaluation visualization
+│   ├── Confusion_matrix.png                # Model evaluation visualization
 
-│   └── postman\_test.png                    # API testing screenshot
-
-│
-
-├── requirements.txt                        # Python dependencies
-
-├── README.md                               # Project documentation
-
-├── LICENSE                                 # MIT License
-
-└── .gitignore                              # Git ignore rules
+│   └── Postman\_Test.png                    # API testing screenshot
+                            
+└── README.md                              # Project documentation
 
 ```
 
@@ -726,7 +711,7 @@ h2s-false-alarm-detection/
 
 
 
-\## 💼 Business Impact
+\## Business Impact
 
 
 
@@ -768,7 +753,7 @@ h2s-false-alarm-detection/
 
 
 
-\## 🔮 Future Enhancements
+\##  Future Enhancements
 
 
 
@@ -793,62 +778,10 @@ h2s-false-alarm-detection/
 ---
 
 
-
-\## 🤝 Contributing
-
-
-
-Contributions are welcome! Please follow these steps:
-
-
-
-1\. Fork the repository
-
-2\. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-
-3\. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-
-4\. Push to the branch (`git push origin feature/AmazingFeature`)
-
-5\. Open a Pull Request
-
-
-
----
-
-
-
-\## 📄 License
-
-
-
-This project is licensed under the MIT License - see the \[LICENSE](LICENSE) file for details.
-
-
-
----
-
-
-
-\## 📧 Contact
-
-
+\## Author:
 
 \*\*Pranav Deshmukh\*\*  
-
-Data Science Aspirant | Machine Learning Engineer
-
-
-
-\- 📧 Email: \[pranavvd635@gmail.com](mailto:pranavvd635@gmail.com)
-
-\- 💼 LinkedIn: \[linkedin.com/in/pranav-deshmukh2004](https://linkedin.com/in/pranav-deshmukh2004)
-
-\- 🐙 GitHub: \[github.com/pranavdeshmukh](https://github.com/pranavdeshmukh)
-
-\- 📍 Location: Pune, Maharashtra, India
-
-
+Data Science Aspirant | Machine Learning
 
 ---
 
@@ -867,4 +800,5 @@ Data Science Aspirant | Machine Learning Engineer
 
 
 </div>
+
 
